@@ -89,8 +89,8 @@ ElevatedButton(
     child: Text("Submit")),
           ElevatedButton(
 
-              onPressed:_Nav2 ,
-              child: Text('mtove to Secondpage')),
+            onPressed:_Nav2 ,
+            child: Text('mtove to Secondpage')),
         ],
       ),
     );
