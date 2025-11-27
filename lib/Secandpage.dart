@@ -14,6 +14,7 @@ class Secandpage extends StatelessWidget {
         children: [
           Text(name),
           Text('data'),
+          SizedBox(height: 20,),
           ElevatedButton(
 
               onPressed: (){
