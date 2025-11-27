@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner:false,
       title: 'Flutter Demo',
       initialRoute: '/',
       routes: {
@@ -70,7 +71,7 @@ controller: _controller1,
               )
             ),
           ),
-          SizedBox(height: 20,),
+          SizedBox(height: 30,),
           TextField(
             controller: _controller2,
             decoration: InputDecoration(
@@ -87,6 +88,7 @@ ElevatedButton(
 
     onPressed: _login,
     child: Text("Submit")),
+          SizedBox(height: 20,),
           ElevatedButton(
 
             onPressed:_Nav2 ,
